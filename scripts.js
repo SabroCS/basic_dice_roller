@@ -2,7 +2,7 @@ function dice4() {
     var dice4 = "4 dice";
     var dice4Value;
 
-    dice4Value = (Math.floor(Math.random() * 4));
+    dice4Value = (Math.floor(Math.random() * 4)+1);
 
     console.log (("Your roll of ")+dice4+(": ")+dice4Value);
     
